@@ -1,6 +1,8 @@
 import React from 'react';
-import './a.scss';
+import './components/button/style/index.scss';
+import {Button} from './components';
+
 const App: React.FC<{}> = () => {
-    return <div className={'q'}>hel67lo</div>
+    return <Button>234</Button>
 }
 export default App;
